@@ -29,6 +29,8 @@ class BasicActivity : AppCompatActivity() {
     private val weekdayFormatter = DateTimeFormatter.ofPattern("EEE", Locale.getDefault())
     private val dateFormatter = DateTimeFormatter.ofPattern("MM/dd", Locale.getDefault())
 
+
+
     private val binding: ActivityBasicBinding by lazy {
         ActivityBasicBinding.inflate(layoutInflater)
     }
